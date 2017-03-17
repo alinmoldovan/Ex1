@@ -13,6 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+ 
+        class Shape {
+            
+        var lenght = 200
+        var width = 50
+            func suface (area: Int) {
+                _ = lenght * width
+            }
+            
+        
+        }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
