@@ -13,15 +13,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
- 
+        
+        print ("go to hell")
+
+        
         class Shape {
             
-        var lenght = 200
-        var width = 50
+        var lenght = 150
+        var width = 150
             func suface (area: Int) {
                 _ = lenght * width
             }
-            
         
         }
         
